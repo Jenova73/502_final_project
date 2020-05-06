@@ -15,7 +15,7 @@ Rujin Guo
 
 
 
-
+Code file: final_project.ipynb
 
 
 
@@ -88,6 +88,9 @@ Based on the results, the Random Forest Model performs better than the Logistic 
 
 It is easy to see that most cases can be finished within a week. Even the random forest model believes no case will take more than a week. It means agencies in new york are quite high efficient, only particular cases would take a long time.
  
+# What else we can do
+Using FNN 
+Take the complaint type as label to predict
 
 Division of labor:
 Yunxi Zhang and Rujin Guo: Data collection and cleaning and basic analysis on dataset
