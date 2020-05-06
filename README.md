@@ -94,6 +94,7 @@ Take the complaint type as label to predict
 
 Division of labor:
 Yunxi Zhang and Rujin Guo: Data collection and cleaning and basic analysis on dataset
+
 Zhenkun Wang and Yuzheng Xie: EDA and model building 
 
 
