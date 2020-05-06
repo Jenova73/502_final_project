@@ -24,9 +24,11 @@ Code file: final_project.ipynb
 
 # Introduction 
 
-Data Science Question: 
+### Data Science Question: 
+
 Background (NYC, 311)
-Reason:
+
+### Reason:
 
 New York City is located in New York State in the northeastern United States. It is the most populous city in the United States and one of the largest cities in the world. As the most densely populated major city in the United States, New York ranks first among the nation's metropolises with a population of 19.8 million. It has the most diverse language and population group in the United States, where 800 languages are spoken. The dense population, the changing social structure, and the emergence of multiple languages, cultures, and customs have brought about various social disputes and needs for help.
 
