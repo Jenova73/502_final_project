@@ -3,11 +3,11 @@
 
 
 
-Coco Final Report 
+# Coco Final Report 
 Massive Data Fundamentals - Spring 2020
 
 
-
+Group Menbers:
 Zhenkun Wang
 Yuzheng Xie
 Yunxi Zhang
@@ -22,7 +22,7 @@ Rujin Guo
 
 
 
-Introduction 
+# Introduction 
 
 Data Science Question: 
 Background (NYC, 311)
@@ -43,7 +43,7 @@ The project will analyze the accuracy of the eTo this end, New York City has set
 stablished model, which focuses on predicting the number of days to complete the request.
 
 
-Dataset Introduction and cleaning
+# Dataset Introduction and cleaning
 
 This dataset is collected from NYX 311 Service Requests for 2004. This dataset has 52 columns. First, all N/A values have been dropped. In this analysis, 14 columns were kept and used, including “Created Date”, “Closed Date”, “Agency”, “Agency Name”, “ Complaint Type”, “ Descriptor”, “ Location Type”, “Incident Zip”, “City”, “ Status”, “ Community Board”, “Borough”, “Park Borough”, “Latitude” and “Longitude”. “Agency Name” refers to the name of the responding city government agency. “Complaint Type” refers to the topic of the incident or condition. 
 
@@ -80,7 +80,7 @@ The project is based on the Spark Pipeline which contains transformers and estim
 There are two machine learning models used in this project. The first one is the Logistic Regression model. The label column is ‘Timebin’, which indicates the time used to process the case. The label has three categories---Low, Medium, High. The features include ‘Agency’, ‘Complaint Type’, ‘Location Type’, ‘City’, ‘Borough’ and etc. The second model is Random Forest. For this model, the label and features of the data are the same as the Logistic Regression model. 
 
 
-Results
+# Results
 According to the results, for the Logistic Regression model, there are three criteria to evaluate the model performance----F1-Score (0.54), Precision (0.52), Recall (0.60), Accuracy (0.60).
 
 To make the result more readable, a confusion matrix was made as follows.
@@ -101,7 +101,7 @@ Yunxi Zhang and Rujin Guo: Data collection and cleaning and basic analysis on da
 Zhenkun Wang and Yuzheng Xie: EDA and model building 
 
 
-References:
+# References:
 https://data.cityofnewyork.us/Social-Services/311-Service-Requests-for-2007/aiww-p3af
 
 https://www1.nyc.gov/311/nyc311-enhances-service-request-open-dataset.page
