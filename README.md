@@ -78,7 +78,9 @@ To make the result more readable, a confusion matrix was made as follows.
 ![Unknown-5](https://user-images.githubusercontent.com/44105030/81131664-dfce1200-8f19-11ea-97a4-7aea6cf6109f.png)
 
 
-The results for the Random Forest model are as follow.
+The results for the Random Forest model are as follows.
+F1-Score (0.66), Precision (0.66), Recall (0.71), Accuracy (0.71).
+
 
 To make the result more readable, a confusion matrix was made as follows.
 ![Unknown-6](https://user-images.githubusercontent.com/44105030/81131665-dfce1200-8f19-11ea-90ff-d0e235be92d3.png)
