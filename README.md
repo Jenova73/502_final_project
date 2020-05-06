@@ -24,11 +24,7 @@ Code file: final_project.ipynb
 
 # Introduction 
 
-### Data Science Question: 
-
-Background (NYC, 311)
-
-### Reason:
+### Background (NYC, 311 Service)
 
 New York City is located in New York State in the northeastern United States. It is the most populous city in the United States and one of the largest cities in the world. As the most densely populated major city in the United States, New York ranks first among the nation's metropolises with a population of 19.8 million. It has the most diverse language and population group in the United States, where 800 languages are spoken. The dense population, the changing social structure, and the emergence of multiple languages, cultures, and customs have brought about various social disputes and needs for help.
 
@@ -46,7 +42,7 @@ New York City has set up 311 service requests as the main source of New York Cit
 
 # Dataset Introduction and cleaning
 
-This dataset is collected from NYC 311 Service Requests from 2004 to present with 52 columns. 
+This dataset is collected from NYC 311 Service Requests from 2004 to present with 52 columns with more than 17 GBs. 
 
 To clean the data, all N/A values have been dropped. In this analysis, 14 columns were kept and used, including “Created Date”, “Closed Date”, “Agency”, “Agency Name”, “ Complaint Type”, “ Descriptor”, “ Location Type”, “Incident Zip”, “City”, “ Status”, “ Community Board”, “Borough”, “Park Borough”, “Latitude” and “Longitude”. “Agency Name” refers to the name of the responding city government agency. “Complaint Type” refers to the topic of the incident or condition. 
 
