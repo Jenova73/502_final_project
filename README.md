@@ -42,7 +42,6 @@ NYC311 can provide a wide range of services, including homeless assistance, poth
 
 The project will analyze the accuracy of the eTo this end, New York City has set up 311 service requests as the main source of New York City government information and non-emergency services to provide the public with fast and convenient New York City government services and information. 
 
-stablished model, which focuses on predicting the number of days to complete the request.
 
 
 # Dataset Introduction and cleaning
