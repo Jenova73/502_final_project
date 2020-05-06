@@ -75,6 +75,7 @@ There are two machine learning models used in this project. The first one is the
 According to the results, for the Logistic Regression model, there are three criteria to evaluate the model performance----F1-Score (0.54), Precision (0.52), Recall (0.60), Accuracy (0.60).
 
 To make the result more readable, a confusion matrix was made as follows.
+
 ![Unknown-5](https://user-images.githubusercontent.com/44105030/81131664-dfce1200-8f19-11ea-97a4-7aea6cf6109f.png)
 
 
@@ -83,6 +84,7 @@ F1-Score (0.66), Precision (0.66), Recall (0.71), Accuracy (0.71).
 
 
 To make the result more readable, a confusion matrix was made as follows.
+
 ![Unknown-6](https://user-images.githubusercontent.com/44105030/81131665-dfce1200-8f19-11ea-90ff-d0e235be92d3.png)
 
 Based on the results, the Random Forest Model performs better than the Logistic Regression model with a higher accuracy 0.71.What interesting is, the label, more than a week in result in random forest model is, zero. That’s say, this forest doesn’t believe any agency like DMV will take more than a week to finish a case. All agencies are so highly efficient.
