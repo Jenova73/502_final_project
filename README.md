@@ -86,7 +86,7 @@ To make the result more readable, a confusion matrix was made as follows.
 
 Based on the results, the Random Forest Model performs better than the Logistic Regression model with a higher accuracy 0.71.
 
-It is easy to see that most cases can be finished within a week. Even the random forest model believes no case will take more than a week. It means agencies in new york are quite high efficient, only particular cases would take a long time.
+The original thought is that a lot of cases will take long time due to diffrent reasons. However, it is easy to see that most cases can be finished within a week. Even the random forest model believes no case will take more than a week. It means agencies in new york are quite high efficient, only particular cases would take a long time.
  
 # What else we can do
 Using FNN 
