@@ -90,9 +90,10 @@ The original thought is that a lot of cases will take long time due to diffrent 
  
 # What else we can do
 Using FNN 
+
 Take the complaint type as label to predict
 
-Division of labor:
+## Division of labor:
 Yunxi Zhang and Rujin Guo: Data collection and cleaning and basic analysis on dataset
 
 Zhenkun Wang and Yuzheng Xie: EDA and model building 
