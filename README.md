@@ -69,7 +69,7 @@ The trend of complaint number continued increasing, and reached the highest vert
 # Models
 The project is based on the Spark Pipeline which contains transformers and estimators. After cleaning data including merging datasets, dropping useless columns, creating a new column and etc., the first step is string indexing. ‘StringIndexer( )’ and other indexers are used to assign unique integers value to each category data. Then, the‘VectorAssembler’ is used to specify the input and output columns in order to train the machine learning models. After that, machine learning models were built. The next step is to fit the pipeline for the trained data and predict for the test data.
  
-There are two machine learning models used in this project. The first one is the Logistic Regression model. The label column is ‘Timebin’, which indicates the time used to process the case. The label has three categories---Low, Medium, High. The features include ‘Agency’, ‘Complaint Type’, ‘Location Type’, ‘City’, ‘Borough’ and etc. The second model is Random Forest. For this model, the label and features of the data are the same as the Logistic Regression model. 
+There are two machine learning models used in this project. The first one is the Logistic Regression model. The label column is ‘Timebin’, which indicates the time used to process the case. The label has three categories---Low, Medium, High. The features include ‘Agency’, ‘Complaint Type’, ‘Location Type’, ‘City’, ‘Borough’ and etc. The second model is Random Forest. For this model, the label and features of the data are the same as the Logistic Regression model. However, the maxbin has been changed to 2,000 to fit the 1,600 different indexes.
 
 
 # Results
