@@ -40,15 +40,17 @@ In 2018, 44,023,630 customers requested services or information, which is 10.2% 
 
 NYC311 can provide a wide range of services, including homeless assistance, pothole repairs, or help understanding property tax bills. The number of service requests has greatly increased, and noise complaints, illegal parking and lane blockages are still major issues. The public will be most concerned about how long it will take the service center to complete the request? People need to understand the efficiency of 311.
 
-The project will analyze the accuracy of the eTo this end, New York City has set up 311 service requests as the main source of New York City government information and non-emergency services to provide the public with fast and convenient New York City government services and information. 
+New York City has set up 311 service requests as the main source of New York City government information and non-emergency services to provide the public with fast and convenient New York City government services and information. The project analyzes the time used for each case. 
 
 
 
 # Dataset Introduction and cleaning
 
-This dataset is collected from NYX 311 Service Requests for 2004. This dataset has 52 columns. First, all N/A values have been dropped. In this analysis, 14 columns were kept and used, including “Created Date”, “Closed Date”, “Agency”, “Agency Name”, “ Complaint Type”, “ Descriptor”, “ Location Type”, “Incident Zip”, “City”, “ Status”, “ Community Board”, “Borough”, “Park Borough”, “Latitude” and “Longitude”. “Agency Name” refers to the name of the responding city government agency. “Complaint Type” refers to the topic of the incident or condition. 
+This dataset is collected from NYC 311 Service Requests from 2004 to present with 52 columns. 
 
-Created Date” and “Closed Date” are in the string format like  “YYYY/MM/DD”. After changing them to date format by “to_date”, three new columns are created: Year(created), month(created) and Time. In order to predict how many days a request can be completed based on different features, “Time” is created by calculating the time gap between the “Created Date” and “Closed Date”.  Then a new column with Timebin replaced the Time as the label of model for better prediction. As Timebin, label has been divided into three columns: within 2 days, within a week and more than a week.
+To clean the data, all N/A values have been dropped. In this analysis, 14 columns were kept and used, including “Created Date”, “Closed Date”, “Agency”, “Agency Name”, “ Complaint Type”, “ Descriptor”, “ Location Type”, “Incident Zip”, “City”, “ Status”, “ Community Board”, “Borough”, “Park Borough”, “Latitude” and “Longitude”. “Agency Name” refers to the name of the responding city government agency. “Complaint Type” refers to the topic of the incident or condition. 
+
+"Created Date” and “Closed Date” are in the string format like  “YYYY/MM/DD”. After changing them to date format by “to_date”, three new columns are created: Year(created), month(created) and Time. In order to predict how many days a request can be completed based on different features, “Time” is created by calculating the time gap between the “Created Date” and “Closed Date”.  Then a new column with Timebin replaced the Time as the label of model for better prediction. As Timebin, label has been divided into three columns: within 2 days, within a week and more than a week.
 
 # Analysis and modeling
 To have a better understanding of the dataset, some basic exploratory data analysis was conducted based on the pyspark.sql package and the Matplotlib.pyplot package. Firstly, the top five frequent complaint types are listed, which are heating, noise-residential,  heat/hot water, plumbing, and blocked the driveway. 
